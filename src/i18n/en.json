@@ -1,0 +1,144 @@
+{
+  "app": {
+    "title": "VN Toolkit",
+    "subtitle": "Productivity tools for office workers",
+    "searchPlaceholder": "Search tools...",
+    "home": "Home",
+    "allTools": "All tools",
+    "favorites": "Favorites",
+    "recent": "Recent",
+    "noResults": "No tools found",
+    "requestTool": "Request a tool",
+    "donate": "Donate",
+    "madeBy": "Made with ♥ by Trần Chấn Hưng"
+  },
+  "home": {
+    "hero": "Productivity tools for office workers",
+    "heroSub": "22+ free tools — salary calculator, bill splitter, tax lookup, image compressor and more. Runs in your browser, no signup needed.",
+    "popular": "Popular",
+    "categories": "Categories",
+    "toolCount": "tools",
+    "stats": {
+      "tools": "tools",
+      "categories": "categories",
+      "free": "Free"
+    }
+  },
+  "categories": {
+    "text": "Text",
+    "image": "Image",
+    "finance": "Finance",
+    "vn-lookup": "VN Lookup",
+    "calculator": "Calculator",
+    "productivity": "Productivity"
+  },
+  "tools": {
+    "word-counter": {
+      "name": "Word Counter",
+      "desc": "Count words, characters, sentences, paragraphs and reading time"
+    },
+    "case-converter": {
+      "name": "Case Converter",
+      "desc": "Convert to UPPERCASE, lowercase, Title Case, Sentence case"
+    },
+    "lorem-generator": {
+      "name": "Text Generator (AI)",
+      "desc": "Generate text with AI or Lorem Ipsum — emails, reports, announcements"
+    },
+    "image-compressor": {
+      "name": "Image Compressor",
+      "desc": "Compress images to reduce file size for email, chat, faster uploads"
+    },
+    "qr-generator": {
+      "name": "QR Generator",
+      "desc": "Create QR codes from links, text, WiFi. Download as PNG/SVG"
+    },
+    "salary-calculator": {
+      "name": "VN Salary Calculator",
+      "desc": "Calculate NET from GROSS salary, deducting social insurance & personal income tax (Vietnam)"
+    },
+    "loan-calculator": {
+      "name": "Loan Calculator",
+      "desc": "Calculate monthly payments, total interest for home & car loans"
+    },
+    "currency-converter": {
+      "name": "Currency Converter",
+      "desc": "Convert VND, USD, EUR, JPY and other currencies with live rates"
+    },
+    "split-bill": {
+      "name": "Bill Splitter",
+      "desc": "Split restaurant bills, add tips, calculate each person's share"
+    },
+    "mst-lookup": {
+      "name": "Tax Code Lookup",
+      "desc": "Look up Vietnamese business information by tax code (MST)"
+    },
+    "bank-info": {
+      "name": "VN Bank Lookup",
+      "desc": "50+ Vietnamese banks — SWIFT codes, BIN numbers, abbreviations"
+    },
+    "bmi-calculator": {
+      "name": "BMI Calculator",
+      "desc": "Calculate BMI from height & weight, classified by WHO Asia standards"
+    },
+    "age-calculator": {
+      "name": "Age Calculator",
+      "desc": "Calculate exact age, days between dates, next birthday countdown"
+    },
+    "unit-converter": {
+      "name": "Unit Converter",
+      "desc": "Convert cm↔inch, kg↔lbs, °C↔°F, km↔miles and common units"
+    },
+    "pomodoro": {
+      "name": "Pomodoro Timer",
+      "desc": "Focus timer using the Pomodoro technique — 25/5 minute cycles"
+    },
+    "sticky-notes": {
+      "name": "Sticky Notes",
+      "desc": "Colorful sticky notes saved right in your browser"
+    },
+    "random-picker": {
+      "name": "Random Picker",
+      "desc": "Spin the wheel, draw names — team building, pick who buys bubble tea"
+    },
+    "password-generator": {
+      "name": "Password Generator",
+      "desc": "Generate strong, random, secure passwords"
+    },
+    "temp-mail": {
+      "name": "Temp Mail",
+      "desc": "Create temporary email, receive verification emails — no signup needed"
+    },
+    "email-signature": {
+      "name": "Email Signature",
+      "desc": "Create professional email signatures for Gmail, Outlook — with logo & social links"
+    },
+    "qr-scanner": {
+      "name": "QR Scanner",
+      "desc": "Upload an image with a QR code to decode its content"
+    },
+    "lunar-calendar": {
+      "name": "Lunar Calendar",
+      "desc": "Convert between solar & lunar dates, view auspicious days"
+    }
+  },
+  "common": {
+    "copy": "Copy",
+    "copied": "Copied!",
+    "paste": "Paste",
+    "clear": "Clear",
+    "download": "Download",
+    "upload": "Upload",
+    "generate": "Generate",
+    "convert": "Convert",
+    "calculate": "Calculate",
+    "result": "Result",
+    "input": "Input",
+    "output": "Output",
+    "dragDrop": "Drag & drop files here or click to select",
+    "close": "Close",
+    "reset": "Reset",
+    "search": "Search",
+    "new": "New"
+  }
+}

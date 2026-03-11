@@ -1,0 +1,144 @@
+{
+  "app": {
+    "title": "VN Toolkit",
+    "subtitle": "Bộ công cụ tiện ích dành cho dân văn phòng",
+    "searchPlaceholder": "Tìm công cụ...",
+    "home": "Trang chủ",
+    "allTools": "Tất cả công cụ",
+    "favorites": "Yêu thích",
+    "recent": "Gần đây",
+    "noResults": "Không tìm thấy công cụ nào",
+    "requestTool": "Gợi ý công cụ mới",
+    "donate": "Ủng hộ",
+    "madeBy": "Made with ♥ by Trần Chấn Hưng"
+  },
+  "home": {
+    "hero": "Công cụ tiện ích cho dân văn phòng",
+    "heroSub": "22+ công cụ miễn phí — tính lương, chia bill, tra cứu MST, nén ảnh và hơn thế nữa. Chạy ngay trên trình duyệt, không cần đăng ký.",
+    "popular": "Phổ biến",
+    "categories": "Danh mục",
+    "toolCount": "công cụ",
+    "stats": {
+      "tools": "công cụ",
+      "categories": "danh mục",
+      "free": "Miễn phí"
+    }
+  },
+  "categories": {
+    "text": "Văn bản",
+    "image": "Hình ảnh",
+    "finance": "Tài chính",
+    "vn-lookup": "Tra cứu VN",
+    "calculator": "Tính toán",
+    "productivity": "Năng suất"
+  },
+  "tools": {
+    "word-counter": {
+      "name": "Đếm từ & ký tự",
+      "desc": "Đếm từ, ký tự, câu, đoạn văn và thời gian đọc"
+    },
+    "case-converter": {
+      "name": "Chuyển HOA / thường",
+      "desc": "Chuyển đổi CHỮ HOA, chữ thường, Title Case, Sentence case"
+    },
+    "lorem-generator": {
+      "name": "Tạo văn bản (AI)",
+      "desc": "Tạo văn bản bằng AI hoặc Lorem Ipsum — email, báo cáo, thông báo"
+    },
+    "image-compressor": {
+      "name": "Nén ảnh",
+      "desc": "Nén ảnh giảm dung lượng để gửi email, Zalo, upload nhanh hơn"
+    },
+    "qr-generator": {
+      "name": "Tạo mã QR",
+      "desc": "Tạo mã QR từ link, văn bản, WiFi. Tải về PNG/SVG"
+    },
+    "salary-calculator": {
+      "name": "Tính lương NET/GROSS",
+      "desc": "Tính lương thực nhận từ lương gross, trừ BHXH, BHYT, thuế TNCN theo luật VN"
+    },
+    "loan-calculator": {
+      "name": "Tính lãi vay",
+      "desc": "Tính số tiền trả hàng tháng, tổng lãi cho khoản vay mua nhà, xe"
+    },
+    "currency-converter": {
+      "name": "Đổi tiền tệ",
+      "desc": "Chuyển đổi tỷ giá VND, USD, EUR, JPY và các ngoại tệ khác"
+    },
+    "split-bill": {
+      "name": "Chia tiền nhóm",
+      "desc": "Chia bill đi ăn, tính tiền tip, ai trả thêm bao nhiêu"
+    },
+    "mst-lookup": {
+      "name": "Tra cứu mã số thuế",
+      "desc": "Tra cứu thông tin doanh nghiệp từ mã số thuế (MST) Việt Nam"
+    },
+    "bank-info": {
+      "name": "Tra cứu ngân hàng VN",
+      "desc": "Danh sách 50+ ngân hàng VN — mã SWIFT, BIN thẻ, tên viết tắt"
+    },
+    "bmi-calculator": {
+      "name": "Tính BMI",
+      "desc": "Tính chỉ số BMI từ chiều cao và cân nặng, phân loại theo WHO châu Á"
+    },
+    "age-calculator": {
+      "name": "Tính tuổi",
+      "desc": "Tính tuổi chính xác, số ngày giữa 2 ngày, sinh nhật tiếp theo"
+    },
+    "unit-converter": {
+      "name": "Đổi đơn vị",
+      "desc": "Chuyển đổi cm↔inch, kg↔lbs, °C↔°F, km↔miles và các đơn vị thông dụng"
+    },
+    "pomodoro": {
+      "name": "Pomodoro Timer",
+      "desc": "Đồng hồ tập trung làm việc theo phương pháp Pomodoro 25/5 phút"
+    },
+    "sticky-notes": {
+      "name": "Ghi chú nhanh",
+      "desc": "Tạo sticky note nhiều màu, lưu ngay trên trình duyệt"
+    },
+    "random-picker": {
+      "name": "Vòng quay may mắn",
+      "desc": "Bốc thăm, quay số ngẫu nhiên — team building, chọn người đi mua trà sữa"
+    },
+    "password-generator": {
+      "name": "Tạo mật khẩu",
+      "desc": "Tạo mật khẩu mạnh, ngẫu nhiên, an toàn"
+    },
+    "temp-mail": {
+      "name": "Mail ảo (Temp Mail)",
+      "desc": "Tạo email tạm thời, nhận thư xác minh — không cần đăng ký"
+    },
+    "email-signature": {
+      "name": "Tạo chữ ký email",
+      "desc": "Tạo chữ ký email chuyên nghiệp cho Gmail, Outlook — có logo & mạng xã hội"
+    },
+    "qr-scanner": {
+      "name": "Quét mã QR",
+      "desc": "Upload ảnh chứa mã QR để giải mã ra link, văn bản"
+    },
+    "lunar-calendar": {
+      "name": "Lịch âm dương",
+      "desc": "Chuyển đổi ngày dương ↔ âm lịch, xem ngày tốt xấu, can chi"
+    }
+  },
+  "common": {
+    "copy": "Sao chép",
+    "copied": "Đã sao chép!",
+    "paste": "Dán",
+    "clear": "Xóa",
+    "download": "Tải về",
+    "upload": "Tải lên",
+    "generate": "Tạo",
+    "convert": "Chuyển đổi",
+    "calculate": "Tính",
+    "result": "Kết quả",
+    "input": "Nhập",
+    "output": "Xuất",
+    "dragDrop": "Kéo thả file vào đây hoặc click để chọn",
+    "close": "Đóng",
+    "reset": "Đặt lại",
+    "search": "Tìm kiếm",
+    "new": "Mới"
+  }
+}

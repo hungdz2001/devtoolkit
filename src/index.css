@@ -1,0 +1,170 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --bg-primary: #f0f2f5;
+    --bg-secondary: #ffffff;
+    --text-primary: #1a1a2e;
+    --text-secondary: #4a4a6a;
+    --glass-bg: rgba(255, 255, 255, 0.7);
+    --glass-border: rgba(255, 255, 255, 0.5);
+    --glass-shadow: 0 8px 32px rgba(31, 38, 135, 0.15);
+    --sidebar-width: 280px;
+  }
+
+  .dark {
+    --bg-primary: #0a0a1a;
+    --bg-secondary: #12122a;
+    --text-primary: #e8e8f0;
+    --text-secondary: #a0a0c0;
+    --glass-bg: rgba(20, 20, 50, 0.6);
+    --glass-border: rgba(255, 255, 255, 0.08);
+    --glass-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+  }
+
+  body {
+    @apply font-sans antialiased transition-colors duration-300;
+    background: var(--bg-primary);
+    color: var(--text-primary);
+    min-height: 100vh;
+  }
+
+  .dark body {
+    background: linear-gradient(135deg, #0a0a1a 0%, #1a1a3e 50%, #0a0a1a 100%);
+    background-attachment: fixed;
+  }
+}
+
+@layer components {
+  .glass {
+    background: var(--glass-bg);
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    border: 1px solid var(--glass-border);
+    box-shadow: var(--glass-shadow);
+  }
+
+  .glass-card {
+    @apply glass rounded-2xl p-6 transition-all duration-300;
+  }
+
+  .glass-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 40px rgba(108, 99, 255, 0.2);
+  }
+
+  .glass-sidebar {
+    @apply glass;
+    border-right: 1px solid var(--glass-border);
+  }
+
+  .glass-navbar {
+    @apply glass;
+    border-bottom: 1px solid var(--glass-border);
+  }
+
+  .btn-primary {
+    @apply px-4 py-2 rounded-xl font-medium transition-all duration-200 bg-accent text-white hover:bg-accent-dark active:scale-95 shadow-lg shadow-accent/25 hover:shadow-accent/40;
+  }
+
+  .btn-secondary {
+    @apply px-4 py-2 rounded-xl font-medium transition-all duration-200 glass hover:bg-white/20 dark:hover:bg-white/10 active:scale-95;
+  }
+
+  .input-glass {
+    @apply w-full px-4 py-3 rounded-xl font-mono text-sm transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-accent/50;
+    background: var(--glass-bg);
+    border: 1px solid var(--glass-border);
+  }
+
+  .textarea-glass {
+    @apply input-glass resize-none;
+    min-height: 120px;
+  }
+
+  .gradient-text {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-accent via-accent-cyan to-accent-pink;
+  }
+
+  .category-header {
+    @apply glass rounded-xl px-5 py-3 mb-5 flex items-center justify-between;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .category-header::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 4px;
+    background: linear-gradient(180deg, #6C63FF, #06B6D4, #EC4899);
+    border-radius: 4px 0 0 4px;
+  }
+
+  .gradient-border {
+    position: relative;
+  }
+
+  .gradient-border::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    padding: 1px;
+    background: linear-gradient(135deg, #6C63FF, #06B6D4, #EC4899);
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+  }
+}
+
+@layer utilities {
+  .scrollbar-thin {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(108, 99, 255, 0.3) transparent;
+  }
+
+  .scrollbar-thin::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  .scrollbar-thin::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  .scrollbar-thin::-webkit-scrollbar-thumb {
+    background: rgba(108, 99, 255, 0.3);
+    border-radius: 3px;
+  }
+
+  .scrollbar-thin::-webkit-scrollbar-thumb:hover {
+    background: rgba(108, 99, 255, 0.5);
+  }
+}
+
+@keyframes gradient-shift {
+
+  0%,
+  100% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+.animate-gradient {
+  background-size: 200% 200%;
+  animation: gradient-shift 3s ease infinite;
+}
+
+pre,
+code {
+  @apply font-mono;
+}
