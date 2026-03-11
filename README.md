@@ -88,6 +88,10 @@ cd devtoolkit
 # Cài dependencies
 npm install
 
+# Tạo file .env (copy từ .env.example)
+cp .env.example .env
+# Sau đó mở .env và điền Telegram Bot Token & Chat ID của bạn
+
 # Chạy dev server
 npm run dev
 ```
