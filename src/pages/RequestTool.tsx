@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 
-const TELEGRAM_BOT_TOKEN = '8794898211:AAFXX4Px8ltZFS56BW7hLKUm0lf9Gd_AUiU';
-const TELEGRAM_CHAT_ID = '732734225';
+const TELEGRAM_BOT_TOKEN = import.meta.env.VITE_TELEGRAM_BOT_TOKEN;
+const TELEGRAM_CHAT_ID = import.meta.env.VITE_TELEGRAM_CHAT_ID;
 
 export default function RequestTool() {
   const { t } = useTranslation();
